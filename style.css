@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    /* transition: all .1s ease-in; */
+}
+
+.header-section {
+    color: rgba(255, 137, 132, 1);
+    text-align: center;
+    background-color: rgba(74, 79, 86, 1);
+}
+
+.header-heading {
+    font-weight: 700;
+    line-height: 28.13px;
+    font-size: 24px;
+}
+
+.header-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+.main-section {
+    background-color: rgba(59, 63, 69, 1);
+    padding-top: 20px;
+    height: 100vh;
+}
+
+.list {
+    width: 534px;
+    padding-left: 500px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 1);
+}
+
+section > div {
+    padding: 10px 10px;
+}
+
+.pickle-item, 
+.orange-item,
+.bento-item
+ {
+    background-color:  rgba(136, 131, 158, 1);
+}
+
+.apple-item,
+.plate-item,
+.sake-item {
+    background-color: rgba(122, 117, 147, 1);
+}
+
+.pickle-item::after {
+    content: "(for the next lesson about CSS)";
+    font-size: 11px;
+    font-weight: 400;
+    color:  rgba(255, 255, 255, 1);
+    line-height: 12.89px;
+}
+
+.apple-item::after {
+    content: "(for more CSS manipulations)";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12.89px;
+}
+
+.orange-item::after {
+    content: "(because they're awesome)";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12.89px;
+}
+
+.plate-item::after {
+    content: " (hm... they always dissapear)";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12.89px;
+}
+
+.sake-item::after {
+    content: " (for my friends)";
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12.89px;
+}
+
+section > div:hover {
+    background-color: rgba(98, 94, 119, 1);
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+}
+
+input:checked + label {
+    color: rgba(155, 150, 172, 1);
+    text-decoration: line-through;
+}
+
+section > div:active {
+    background-color: red;
+}
+
+.end {
+    color: rgba(255, 137, 132, 1);
+    text-align: center;
+    background-color: rgba(74, 79, 86, 1);
+    text-align: center;
+    margin-left: 500px;
+    width: 534px;
+    margin-top: 20px;
+    font-size: 24px;
+}
